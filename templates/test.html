@@ -1,0 +1,19 @@
+{include file="header.html"}
+    <body>
+        {$data}
+        {foreach $vars}
+            {if $V == 1 }
+                <input value="{V}">
+            {elseif $V == 2}
+                <input value="123123">
+            {else }
+                <input value="sdfsas是aa">
+            {/if}
+        {/foreach}
+        
+        { loop $vars as $var}
+            <input value="{var}">
+        { /loop }
+        {!123!}
+    </body>
+{include file="footer.html"}
