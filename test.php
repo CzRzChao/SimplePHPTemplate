@@ -1,15 +1,11 @@
 <?php
-
 /**
- * @filename test.php 
- * @encoding UTF-8 
- * @author CzRzChao 
- * @createtime 2016-6-7  23:08:12
- * @updatetime 2016-6-7  23:08:12
- * @version 1.0
- * @Description
- * 
+ * Copyright © czrzchao.com
+ * User: czrzchao
+ * Date: 2017/11/14 22:46
+ * Desc: 测试代码
  */
+
 require('Template.php');
 
 date_default_timezone_set('PRC');
@@ -17,7 +13,6 @@ date_default_timezone_set('PRC');
 $config = array(
     'debug' => true,
     'cache_htm' => true,
-    'debug' => false
 );
 
 $tpl = new Template($config);
